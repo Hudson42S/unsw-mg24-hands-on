@@ -1,0 +1,12 @@
+# Dataset folders and build output: never commit them
+data/*
+!data/README.md
+
+# Generated
+figures/
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+venv/
