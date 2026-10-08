@@ -67,6 +67,7 @@ data/
 ```
 
 Keep the folder names exactly as they are in the dataset. The system-call folders are only used for a summary in the data card; `CICFlowMeter-4.0` is not used.
+[`data/README.md`](data/README.md) explains what each folder holds and how to read the raw files.
 Everything in `data/` is ignored by git, so the dataset is never committed by accident.
 
 Then build the processed tables:
